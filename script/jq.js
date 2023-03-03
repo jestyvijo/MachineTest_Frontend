@@ -47,7 +47,7 @@ $(document).ready(function(){
             },
             messages:{
                 fname:{
-                    required:"<div style='color:red;'>*Enter your First name</div>",
+                    required:"<span style='color:red;'>*Enter your First name</span>",
                 },
                 lname:{
                     required:"<span style='color:red;'>* Enter your last name</span>",
