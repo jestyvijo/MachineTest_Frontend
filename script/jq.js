@@ -22,52 +22,52 @@ $(document).ready(function(){
         $("#register").validate({
             rules:{
                 fname:{
-                    required:true
+                    required:true,
                 },
                 lname:{
-                    required:true
+                    required:true,
                 },
                 bdate:{
-                    required:true
+                    required:true,
                 },
                 inlineRadioOptions:{
-                    required:true
+                    required:true,
                 },
                 email:{
                     required:true, 
-                    email:true                          
+                    email:true ,                         
                 },
                 phone:{
                     required:true, 
-                    number:true                          
+                    number:true ,                         
                 },
                 sub:{
-                    required:true
+                    required:true,
                 }
             },
             messages:{
                 fname:{
-                    required:"Enter your First name"
+                    required:"<span style='color:red;'>*Enter your First name</span>",
                 },
                 lname:{
-                    required:"Enter your last name"
+                    required:"<span style='color:red;'>* Enter your last name</span>",
                 },
                 bdate:{
-                    required:"Select date" 
+                    required:"<span style='color:red;'>* Select date</span>", 
                 },
                 inlineRadioOptions:{
-                    required:"Select any one option"
+                    required:"<span style='color:red;'>* Select any one option</span>",
                 },
                 email:{
-                    required:"Enter Email",
-                    email:"Enter valid Email"                           
+                    required:"<span style='color:red;'>* Enter Email</span>",
+                    email:"<span style='color:red;'>* Enter valid Email</span>",                           
                 },
                 phone:{
-                    required:"Enter Phone Number",   
-                    number:"Please enter only numbers"                        
+                    required:"<span style='color:red;'>* Enter Phone </span>",   
+                    number:"<span style='color:red;'>* Please enter only </span>",                        
                 },
                 sub:{
-                    required:"Please select Subject"   
+                    required:"<span style='color:red;'>* Please select Subject</span>",   
                 }
            },
            submitHandler: function(form){
