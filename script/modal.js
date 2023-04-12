@@ -42,6 +42,6 @@ function valid1(){
     return false
   }
   else{
-    document.getElementById("s1").innerHTML=""
+    document.getElementById("s2").innerHTML=""
   }
 }
